@@ -1,0 +1,18 @@
+sh -c 'mosquitto_pub -h localhost -t 'miio/command' -m '{"method":"miIO.ota","params":{"app_url":"https://cdn.fds-ssl.api.xiaomi.com/miio_fw/ea45e4b8eaa642cdb3ce26b03ee72dc0_upd_yeelink.wifispeaker.v1.bin?GalaxyAccessKeyId=5721718224520&Expires=1546776973000&Signature=AObvwnqjKC+dyr0Duau5buc2pw4=&uniqRequestId=90067248","file_md5":"ea45e4b8eaa642cdb3ce26b03ee72dc0","signed_file":true,"original_length":52480016,"install":"1","proc":"dnld install","mode":"normal"},"id":364537,"from":"1"}'
+
+
+
+mosquitto_pub -h localhost -t 'miio/command' -m '{"method":"miIO.ota","params":{"app_url":"http://192.168.14.10:8000/yeelight.bin","file_md5":"ea45e4b8eaa642cdb3ce26b03ee72dc0","signed_file":true,"original_length":52480016,"install":"1","proc":"dnld install","mode":"normal"},"id":364537,"from":"1"}'
+
+
+mosquitto_pub -h localhost -t 'miio/command' -m '{"method":"miIO.ota","params":{"app_url":"http://192.168.14.10:8000/yeelight.bin","file_md5":"943df21ea2d2538568a3b9fd217db911","signed_file":true,"original_length":52481293,"install":"1","proc":"dnld install","mode":"normal"},"id":364537,"from":"1"}'
+
+
+size: 52481293
+
+mosquitto_pub -h localhost -t 'miio/command' -m '{"method":"start_user_nlp","params":["tettetetetetettetetetetetteettete",0],"id":374348825}'
+
+
+mosquitto_pub -h localhost -t 'miio/command' -m '{"method":"get_prop","params":
+["speaker_volume","speaker_rate","speaker_mute","microphone_mute","bright","ai_p
+rovider","ai_env"],"id":1384217882}''
